@@ -18,5 +18,8 @@ Para asegurar que la aplicacion funcione, primero se debe crear la base de datos
   - **CotizacionesConsultar** (Procedimiento Almacenado)
   - **CotizacionCrear** (Procedimiento Almacenado)
 5. Una vez terminada la publicacion de la base de datos. Establece la cadena de conexion en el archivo de configuracion **/SimpleCotizador/appsettings.json**. Ejemplo de la cadena de conexion local: *Server=(local);Database=SimpleCotizador;Trusted_Connection=True;MultipleActiveResultSets=true*.
+
+![alt text](https://raw.githubusercontent.com/marcohern/SimpleCotizador/master/images/connString.png "Cadena de Conexion a Base de Datos")
+
 6. Finalmente, clic sobre el boton de **> Ejecutar (IIS Express)** para ejecutar la aplicacion.
 
