@@ -13,7 +13,9 @@ Para asegurar que la aplicacion funcione, primero se debe crear la base de datos
 1. Abrir la solucion **SimpleCotizador.sln**.
 2. Desde la interfaz de Visual Studio 2017, haz segundo clic sobre el proyecto de base de datos **SimpleCotizador.Database** -> **Publicar**.
 3. En el dialogo de **publicar base de datos**, primero selecciona una Conexion destino, haciendo clic en Editar, y seleccionando la base de datos. Si no hay conexiones disponibles, debes primero añadirlas en el **Explorador de Servicios** -> **Conexiones de datos**.
+
 ![alt text](https://raw.githubusercontent.com/marcohern/SimpleCotizador/master/images/publishDb.edit.png "Publicar base de datos . Editar")
+
 4. Luego de seleccionar la conexion destino, haz clic sobre **Publicar**. Esto iniciara el proceso de crear la base de datos.
 
 ![alt text](https://raw.githubusercontent.com/marcohern/SimpleCotizador/master/images/publishDb.publish.png "Publicar base de datos . Publicar")
