@@ -1,0 +1,12 @@
+﻿<div class="container">
+    <h2>Cotizaciones</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <input type="text" class="form-control" placeholder="Buscar. Ej: McDonalds" ng-blur="filtrar()" ng-keypress="filtrarEnter($event)" ng-model="query" />
+        </div>
+        <div class="col-md-6">
+            <button class="btn btn-primary" ng-click="configurar()">Crear</button>
+        </div>
+    </div>
+</div><br />
+<div ui-grid="gridOptions" class="grid"></div>

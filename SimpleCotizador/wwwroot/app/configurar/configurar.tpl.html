@@ -1,0 +1,23 @@
+﻿<div class="container">
+    <h2>Configurar Cotizaciones</h2>
+    <form ng-submit="confirmar()">
+        <div class="form-group">
+            <label for="cliente">*Cliente</label>
+            <input type="text" class="form-control" id="cliente" aria-describedby="clienteHelp" placeholder="Cliente: Ej: Juan Martinez" required ng-model="cliente">
+            <small id="clienteHelp" class="form-text text-muted">Obligatorio.</small>
+        </div>
+        <div class="form-group">
+            <label for="tipoSeguro">*Tipo de Seguro</label>
+            <input type="text" class="form-control" id="tipoSeguro" aria-describedby="tipoSeguroHelp" placeholder="TipoSeguro: Ej: Tercero" required ng-model="tipoSeguro">
+            <small id="tipoSeguroHelp" class="form-text text-muted">Obligatorio.</small>
+        </div>
+        <div class="form-group">
+            <label for="fechaVencimiento">*Fecha de Vencimiento</label>
+            <input class="form-control" moment-picker="fechaVencimientoVal" ng-model="fechaVencimiento" format="DD/MM/YYYY" id="fechaVencimiento" required aria-describedby="fechaVencimientoHelp">
+            <small id="fechaVencimientoHelp" class="form-text text-muted">Obligatorio.</small>
+        </div>
+        <div class="text-right">
+            <button type="submit" class="btn btn-lg btn-primary">Siguiente</button>
+        </div>
+    </form>
+</div>
