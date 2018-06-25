@@ -84,5 +84,10 @@ namespace SimpleCotizador.DAL
             }
             return cots;
         }
+
+        public int Sum(int a, int b)
+        {
+            return a + b;
+        } 
     }
 }
